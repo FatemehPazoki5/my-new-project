@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+body{
+
+    background-color:#171a35 ;
+   
+}
+.menu{
+    width: 5%;
+    height: 290px;
+    background-color: #191e35f0;
+    border-radius: 23px;
+    box-shadow: inset 0px 0px 20px 2px #4d57aa;
+    margin: 7% auto;
+    display: inline-block;
+    float: right;
+    margin-right: 52px;
+    margin-top: 250px;
+}
+.icon{
+    height: 13%;
+    width: 50%;
+    margin: 15px 20px;
+    transition: width 0.5s, height 0.5s;
+}
+@keyframes icon{
+    0%{transform: rotateY(0deg);}
+    100%{transform:rotateY(360deg);}
+}
+.icon:hover{
+    
+    width: 66%;
+    height: 15%;
+    margin-left: 15px;
+    animation:2s ease  icon ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px white;
+   
+    
+    
+}
+.one, .two, .theri{
+    width: 10%;
+    height: 400px;
+    background-color: #090b18f0;
+    border-radius: 48%;
+    box-shadow: inset 0px 0px 20px 2px #a1f5ff;
+    margin: 0px auto;
+    display: inline-block;
+    z-index: 0;
+}
+.one{
+    transform: rotate(-40deg);
+    margin-left: 45%;
+    margin-bottom: -3%;
+}
+
+.two{
+    margin-bottom: -2%;
+    margin-left: -9%;
+    transform: rotate(40deg);
+}
+
+.theri{
+    margin-left: -11%;
+    transform: rotate(90deg);
+    margin-bottom: -2%;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: 140px;
+    margin-left: -135px;
+    position: absolute;
+}
+.background{
+    width: 69%;
+    height: 450px;
+    
+    border-radius: 175px;
+    box-shadow: inset 0px 0px 20px 2px #4e58ad;
+    margin: 0px auto;
+    margin-top: -180px;
+}
+.text{
+    margin: 100px;
+}
+.text h2{
+    color: #4d57aa;
+    margin: 0px 70px 40px 0px;
+}
+.text p{
+    color: #a1f5ff;
+    font-size: 19px;
+    
+}
+.text li{
+    color: #2c347d;
+    margin-right: 30px;
+}
